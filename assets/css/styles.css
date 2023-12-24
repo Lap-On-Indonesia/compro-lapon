@@ -13,7 +13,7 @@
   --font: "Sora", sans-serif;
   --body-color: #637381;
   --heading-color: #212b36;
-  --primary-color: #3056d3;
+  --primary-color: #368b85;
   --white: #ffffff;
 }
 
@@ -257,6 +257,8 @@ p {
 
 .navbar-toggler {
   padding: 0;
+  padding-top: 6px;
+  padding-bottom: 6px;
 }
 
 .navbar-toggler .toggler-icon {
@@ -765,6 +767,13 @@ p {
 .contact .info {
   width: 100%;
   background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.contact {
+  background: #f3f4fe;
+  padding: 120px 0 90px;
 }
 
 .contact .info i {
@@ -811,6 +820,9 @@ p {
 .contact .php-email-form {
   width: 100%;
   background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  /* background: #f3f4fe; */
 }
 
 .contact .php-email-form .form-group {
@@ -912,6 +924,7 @@ p {
 .features {
   padding-top: 120px;
   padding-bottom: 90px;
+  background: #f3f4fe;
 }
 
 @media (max-width: 767px) {
