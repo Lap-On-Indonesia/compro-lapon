@@ -15,9 +15,9 @@
 
     // === logo change
     if (header.classList.contains("sticky")) {
-      logo.src = "assets/images/logo/logo-typo.jpg";
+      logo.src = "assets/images/logo/logo_ijo.png";
     } else {
-      logo.src = "assets/images/logo/logo-typo.jpg";
+      logo.src = "assets/images/logo/logo-putih.png";
     }
 
     // show or hide the back-top-top button
