@@ -24,10 +24,10 @@
           <div class="col-lg-12">
             <div class="navbar-wrapper">
               <nav class="navbar navbar-expand-lg">
-                <!-- <a class="navbar-brand" href="index.html">
-                  <img src="assets/images/logo/logo.svg" alt="Logo" />
-                </a> -->
-                <h2 class="text-black">Lap.On</h2>
+                <a class="navbar-brand" href="index.html">
+                  <img src="assets/images/logo/logo-typo.jpg" alt="Logo" width="280" style="border-radius: 8px;"/>
+                </a>
+                <!-- <h2 class="text-black">Lap.On</h2> -->
                 <button class="navbar-toggler">
                   <span class="toggler-icon"> </span>
                   <span class="toggler-icon"> </span>
@@ -40,7 +40,7 @@
                       <a class="menu-scroll" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
-                      <a class="menu-scroll" href="#">About</a>
+                      <a class="menu-scroll" href="#about">About</a>
                     </li>
                     <li class="nav-item">
                       <a class="menu-scroll" href="#features">Features</a>
@@ -72,7 +72,7 @@
             <div class="hero-content wow fadeInUp" data-wow-delay=".2s">
               <h1 class="hero-title">Welcome to Lap.On</h1>
               <p class="hero-desc">Tempat dimana passion bertemu lapangan! Temukan pengalaman bermain yang tak terlupakan dengan booking lapangan olahraga secara online</p>
-              <a href="index.html" class="main-btn">Contact Us</a>
+              <a href="#contact" class="main-btn">Contact Us</a>
             </div>
           </div>
           <div class="col-lg-6 col-xl-6">
@@ -154,42 +154,54 @@
 
     <!--  ======== About Us Start ======== -->
 
-    <!-- <section id="about" class="about">
-      <div class="container-fluid">
+    <section id="about" class="about">
+      <div class="container">
         <div class="row">
-          <div class="col-xl-5 col-lg-6 justify-content-center align-items-stretch" data-aos="fade-right">
-            <!-- <a href="https://www.youtube.com/watch?v=StpBR2W8G5A" class="glightbox play-btn mb-4"></a> -->
-            <img src="assets/images/hero/mockup_ui.png" alt="hero-image" class="image mt-4" />
+          <div class="col-lg-6 my-3">
+            <div class="about-content">
+              <div class="section-title">
+                <span>About Us</span>
+                <h2>
+                  The Best Partner For Easily Booking Sports Fields Online.
+                </h2>
+              </div>
+              <p>
+                Selamat datang di Lap. On, Di sini, kami mengubah cara kalian menikmati kegiatan olahraga favorit. Booking lapangan jadi lebih mudah dan seru! Bersama Lap. On, tiap langkah kalian menuju lapangan impian bakal penuh kegembiraan. Ayo, main bareng Lap. On, di mana setiap detik adalah petualangan olahraga keren!
+              </p>
+
+              <p>
+                Ayo, main bareng Lap. On, di mana setiap detik adalah petualangan olahraga keren!
+                #MainBarengLapOn
+              </p>
+              
+              <a class="main-btn" href="#team">Meet Our Team</a>
+            </div>
           </div>
-
-          <div class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5" data-aos="fade-left">
-            <h3>About Us</h3>
-            <p>
-              Esse voluptas cumque vel exercitationem. Reiciendis est hic accusamus. Non ipsam et sed minima temporibus laudantium. Soluta voluptate sed facere corporis dolores excepturi. Libero laboriosam sint et id nulla tenetur. Suscipit
-              aut voluptate.
-            </p>
-
-            <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
-              <div class="icon"><i class="bx bx-fingerprint"></i></div>
-              <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
-            </div>
-
-            <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
-              <div class="icon"><i class="bx bx-gift"></i></div>
-              <h4 class="title"><a href="">Nemo Enim</a></h4>
-              <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
-            </div>
-
-            <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
-              <div class="icon"><i class="bx bx-atom"></i></div>
-              <h4 class="title"><a href="">Dine Pad</a></h4>
-              <p class="description">Explicabo est voluptatum asperiores consequatur magnam. Et veritatis odit. Sunt aut deserunt minus aut eligendi omnis</p>
+          <div class="col-lg-6 my-3">
+            <div class="about-image-wrapper">
+              <div class="about-image text-center text-lg-center">
+                <img
+                  src="assets/images/about/vecvecvec.png"
+                  alt="about"
+                  class="image"
+                />
+                <img
+                  src="assets/images/about/dotted-shape.svg"
+                  alt="shape"
+                  class="shape shape-1 img-fluid"
+                />
+                <img
+                  src="assets/images/about/dotted-shape.svg"
+                  alt="shape"
+                  class="shape shape-2"
+                />
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
+
     <!-- End About Section -->
 
     <!--  ======== About Us End ======== -->
@@ -484,20 +496,20 @@
             <div class="info">
               <div class="address">
                 <i class="bi bi-geo-alt"></i>
-                <h4>Location:</h4>
-                <p>A108 Adam Street, New York, NY 535022</p>
+                <h4>Lokasi:</h4>
+                <p>Tangerang Selatan, Banten</p>
               </div>
 
               <div class="email">
                 <i class="bi bi-envelope"></i>
                 <h4>Email:</h4>
-                <p>info@example.com</p>
+                <p>lap.on.indonesia@gmail.com</p>
               </div>
 
               <div class="phone">
                 <i class="bi bi-phone"></i>
-                <h4>Call:</h4>
-                <p>+1 5589 55488 55s</p>
+                <h4>Telepon:</h4>
+                <p>+62 89537 5873 744</p>
               </div>
             </div>
           </div>
@@ -506,21 +518,21 @@
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required />
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Nama" required />
                 </div>
                 <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required />
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Email" required />
                 </div>
               </div>
               <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required />
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Judul" required />
               </div>
               <div class="form-group mt-3">
                 <textarea
                   class="form-control"
                   name="message"
                   rows="5"
-                  placeholder="Message"
+                  placeholder="Pesan"
                   required
                 ></textarea>
               </div>
@@ -532,7 +544,7 @@
                 </div>
               </div>
               <div class="text-center">
-                <button type="submit">Send Message</button>
+                <button type="submit">Kirim Pesan</button>
               </div>
             </form>
           </div>
@@ -549,27 +561,27 @@
             <div class="col-xl-4 col-lg-4 col-md-6">
               <div class="widget">
                 <a href="index.html" class="footer-logo">
-                  <img src="assets/images/logo/logo.svg" alt="logo" />
+                  <img src="assets/images/logo/logo.jpg" alt="logo" width="60" style="border-radius: 8px;"/>
                 </a>
-                <p class="widget-desc">We create digital experiences for brands and companies by using technology.</p>
+                <p class="widget-desc">We create experiences using technology.</p>
                 <ul class="widget-socials">
-                  <li>
+                  <!-- <li>
                     <a href="javascript:void(0)">
                       <i class="lni lni-facebook-filled"></i>
                     </a>
-                  </li>
-                  <li>
+                  </li> -->
+                  <!-- <li>
                     <a href="javascript:void(0)">
                       <i class="lni lni-twitter-filled"></i>
                     </a>
-                  </li>
+                  </li> -->
                   <li>
-                    <a href="javascript:void(0)">
+                    <a href="https://www.instagram.com/lap.on_id/">
                       <i class="lni lni-instagram-filled"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="javascript:void(0)">
+                    <a href="https://www.linkedin.com/company/lap-on">
                       <i class="lni lni-linkedin-original"></i>
                     </a>
                   </li>
@@ -582,16 +594,16 @@
                 <h5 class="widget-title">About Us</h5>
                 <ul class="widget-links">
                   <li>
-                    <a href="javascript:void(0)">Home</a>
+                    <a href="index.php">Home</a>
                   </li>
                   <li>
-                    <a href="javascript:void(0)">Features</a>
+                    <a href="#features">Features</a>
                   </li>
                   <li>
-                    <a href="javascript:void(0)">About</a>
+                    <a href="#about">About</a>
                   </li>
                   <li>
-                    <a href="javascript:void(0)">Testimonial</a>
+                    <a href="#team">Team</a>
                   </li>
                 </ul>
               </div>
@@ -620,17 +632,17 @@
                 <h5 class="widget-title">Our Products</h5>
                 <ul class="widget-links">
                   <li>
-                    <a href="https://lineicons.com/" rel="nofollow noopner" target="_blank">Lineicons </a>
+                    <a href="#features" rel="nofollow noopner">Komunitas  Tim </a>
                   </li>
                   <li>
-                    <a href="https://ecommercehtml.com/" rel="nofollow noopner" target="_blank">Ecommerce HTML</a>
+                    <a href="#features" rel="nofollow noopner">Booking Lapangan</a>
                   </li>
                   <li>
-                    <a href="https://ayroui.com/" rel="nofollow noopner" target="_blank">Ayro UI</a>
+                    <a href="#features" rel="nofollow noopner">versus</a>
                   </li>
-                  <li>
+                  <!-- <li>
                     <a href="https://graygrids.com/" rel="nofollow noopner" target="_blank">Plain Admin</a>
-                  </li>
+                  </li> -->
                 </ul>
               </div>
             </div>
