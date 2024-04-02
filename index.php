@@ -526,7 +526,7 @@
           </div>
 
           <div class="col-lg-8 mt-5 mt-lg-0" data-aos="fade-left" data-aos-delay="200">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form action="contact.php" method="post" role="form" class="php-email-form" id="contact-form">
               <div class="row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Nama" required />
@@ -668,6 +668,8 @@
       <i class="lni lni-chevron-up"> </i>
     </a>
     <!-- ====== Back To Top End ====== -->
+
+    
 
     <!-- ====== All Javascript Files ====== -->
     <script src="assets/js/bootstrap.bundle.min.js"></script>
